@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizMaster • Timed Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-app" id="app">
+        
+        <!-- HEADER -->
+        <header class="header">
+            <h1>QuizMaster</h1>
+            <div class="score">Score: <span id="scoreDisplay">0</span></div>
+        </header>
+        
+        <!-- PROGRESS -->
+        <div class="progress-container">
+            <div class="progress" id="progressBar"></div>
+        </div>
+        
+        <!-- TIMER -->
+        <div class="timer-container">
+            <span>⏱ Time Left</span>
+            <div class="timer" id="timer">10</div>
+            <span>seconds</span>
+        </div>
+        
+        <!-- QUESTION SCREEN -->
+        <div class="main" id="questionScreen">
+            <div class="question-number">
+                Question <span id="qNum">1</span> of <span id="totalQ">5</span>
+            </div>
+            <div class="question" id="questionText">Loading your timed question…</div>
+            
+            <div class="options" id="options"></div>
+            
+            <div class="feedback" id="feedback">
+                <span id="feedbackEmoji" style="font-size:28px"></span>
+                <span id="feedbackMsg"></span>
+            </div>
+            
+            <button class="next-btn" id="nextButton" disabled>Next Question →</button>
+        </div>
+        
+        <!-- RESULT SCREEN -->
+        <div class="result" id="resultScreen">
+            <h2>Quiz Complete!</h2>
+            <div class="result-score" id="finalScore">0</div>
+            <div class="result-text" id="resultMsg"></div>
+            <button class="restart-btn" onclick="restartQuiz()">Choose Another Category</button>
+        </div>
+        
+        <!-- CATEGORY SCREEN -->
+        <div class="category-screen" id="categoryScreen">
+            <h2>Select a Category</h2>
+            <div class="categories">
+                <button class="category-btn" data-category="aptitude">Aptitude</button>
+                <button class="category-btn" data-category="logical">Logical Questions</button>
+                <button class="category-btn" data-category="sports">Sports</button>
+                <button class="category-btn" data-category="programming">Programming Language</button>
+                <button class="category-btn" data-category="general">General Knowledge</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="particles" id="particles"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

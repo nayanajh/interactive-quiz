@@ -73,3 +73,6 @@ This project is a great addition to a developer portfolio, highlighting both cre
 
 # OUTPUT
 <img width="1879" height="905" alt="Image" src="https://github.com/user-attachments/assets/d76635ed-d946-42c8-a2ac-44c185d0e1fe" />
+
+<img width="1890" height="904" alt="Image" src="https://github.com/user-attachments/assets/965133ed-60e7-4463-856e-04bfbae187e0" />
+

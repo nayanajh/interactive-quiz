@@ -72,3 +72,4 @@ QuizMaster demonstrates strong frontend development skills by combining design, 
 This project is a great addition to a developer portfolio, highlighting both creativity and technical expertise.
 
 # OUTPUT
+<img width="1879" height="905" alt="Image" src="https://github.com/user-attachments/assets/d76635ed-d946-42c8-a2ac-44c185d0e1fe" />

@@ -71,6 +71,9 @@ JavaScript (Vanilla JS) – Logic, timer, interactivity, DOM manipulation
 QuizMaster demonstrates strong frontend development skills by combining design, logic, and interactivity into a single application. It showcases the ability to build responsive, dynamic, and user-centric web applications using core technologies.
 This project is a great addition to a developer portfolio, highlighting both creativity and technical expertise.
 
+*Live Demo*:https://nayanajh.github.io/interactive-quiz/
+
+
 # OUTPUT
 <img width="1879" height="905" alt="Image" src="https://github.com/user-attachments/assets/d76635ed-d946-42c8-a2ac-44c185d0e1fe" />
 
